@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2022, 12:04:00 AM
+    Author     : QuangHai144
+*/
+
+.header-slider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #040404;
+    align-items: center;
+}
+.logo-header{
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 0 50px;
+    }
+.logo-link{
+    color: rgb(215, 220, 223);
+    flex: 1;
+}
+.br{
+    border-right: 0.5px solid rgb(120, 119, 119);
+}
+.list-header{
+    height: 100%;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.item-header{
+
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.link-header{
+    color: rgb(220, 219, 219);
+    padding: 0 10px;
+}
+.link-header:hover{
+    color: rgb(169, 85, 237);
+}
+.link-header:active{
+    color: rgb(169, 85, 237);
+}
+
+.search-cart-account{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.sca{
+    margin: 0 12px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.sca>a{
+    color: #fff;
+}
+
+.div-infor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    background-color: #ffffff;
+    right: 20px;
+    align-items: center;
+}
+.div-infor a{
+    
+    display: block;
+    background-color: #040404;
+    color: #fff;
+    width: 45%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.link-account{
+    text-align: center;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.name-user{
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+
+/* table */
+.main{
+    margin: 50px 0;
+}
+.product-img{
+    width: 50px;
+}
+.notice{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(6, 133, 88);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.dis{
+    display: none;
+}
+.right{
+    border-left: 1px solid #333;
+}
+.table-cart{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+.table-cart thead{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.table-cart td{
+    text-align: center;
+}
+.cart-item{
+    align-items: center;
+    border-bottom: 1px dotted rgb(209, 202, 202);
+    height: 70px;
+}
+.product-remove{
+    position: relative;
+}
+.button-remove{
+    
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.remove{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.quantity{
+    width: 32%;
+}
+
+.process{
+    border: 1px solid #333;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+}
+.product-quantity{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.continue-update{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.continue-shopping{
+    border: 2px solid rgb(6, 113, 148);
+    padding: 10px 20px;
+    text-align: center;
+
+}
+.link-continue{
+    color: rgb(6, 113, 148);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+}
+.link-continue:hover{
+    color: rgb(205, 205, 12);
+}
+.button-update{
+    border: none;
+    background-color: rgb(19, 98, 120);
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-update:hover{
+    background-color: rgb(20, 186, 155);
+}
+/* .product-thumbnail{
+    display: inline-block;
+} */
+
+
+/* sidebar */
+
+.name-sidebar{
+    text-align: left;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(196, 193, 193);
+    margin: 20px 0;
+}
+.cart-sidebar tr{
+    /* border-bottom: 1px dotted #333; */
+    
+}
+.cart-sidebar th{
+    text-align: left;
+}
+.cart-sidebar td{
+    text-align: right;
+}
+.cart-sidebar table{
+    width: 100%;
+    height: 200px;
+}

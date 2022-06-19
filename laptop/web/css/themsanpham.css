@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2022, 12:09:17 AM
+    Author     : QuangHai144
+*/
+
+
+.mucthemsanpham{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+}
+.header-themsanpham{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.khungthemsanpham{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 40%;
+
+}
+.onhap{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.onhap input{
+    height: 30px;
+}
+select{
+    height: 30px;
+}
+
+.xacnhan{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 20px;
+}
+.xacnhan button{
+    margin: 0 10px;
+    height: 30px;
+    width: 20%;
+}
+
+.dis{
+    display: none;
+}
+.main{
+    position: relative;
+}
+.active{
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+.themsanpham{
+    cursor: pointer;
+}
